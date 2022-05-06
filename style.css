@@ -54,7 +54,7 @@ span{
     width: 100%;
     height: 100vh;
     /*background-color: #eff4fd;*/
-    background-image: url('/assets/images/wallpaper2.jpg');
+    background-image: url('assets/images/wallpaper2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
