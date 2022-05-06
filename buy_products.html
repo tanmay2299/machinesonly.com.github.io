@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MachinesOnly.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modalBody">
+          ...
+        </div>
+        <div class="modal-footer">
+            <h3 class="display-4" id="total-amount"></h3>
+            <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Continue Shopping</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <section class="navbar">
+        <nav>
+            <h1 id="heading">MachinesOnly.com</h1>
+            <ul>
+                <li onclick="window.location='index.html'">Home</li>
+                <li onclick="window.location='buy_products.html'">Buy Products</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li><button id="show_cart" data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn btn-dark">Cart <span></span></button></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="buy_products_section">
+        <div id="mechanical_div">
+        <div id="buy_products_div">
+            <img style="margin :15px;" src="/assets/images/lathe.jpg"><br>
+            <p>Name: Lathe Machine</p>
+            <p>Main motor: 1.5 kw</p>
+            <p>Height of centers: 165 mm</p>
+            <p>Width: 240 mm</p>
+            <p>Price: 100000/-</p>
+            <button  type="button" id="add_to_cart">Add To Cart</button>
+        </div>
+
+        <div id="buy_products_div">
+            <img style="margin :15px;" src="/assets/images/mechanical2.jpg"><br>
+            <p>Name: Glass Cutting Machine</p>
+            <p>Main motor: 1.0 kw</p>
+            <p>Height of centers: 160 mm</p>
+            <p>Width: 240 mm</p>
+            <p>Price: 200000/-</p>
+            <button id="add_to_cart" >Add To Cart</button>
+        </div>
+
+        <div id="buy_products_div">
+            <img style="margin :15px;" src="/assets/images/gettyimages-1201531555-170667a.jpg"><br>
+            <p>Name: Gear System</p>
+            <p>Main motor: 2.5 kw</p>
+            <p>Height of centers: 185 mm</p>
+            <p>Width: 140 mm</p>
+            <p>Price: 120000/-</p>
+            <button id="add_to_cart" >Add To Cart</button>
+        </div>
+
+        <div id="buy_products_div">
+            <img style="margin :15px;" src="/assets/images/mechanical-engineering.jpg"><br>
+            <p>Name: Electric Motors</p>
+            <p>Main motor: 1.5 kw</p>
+            <p>Height of centers: 165 mm</p>
+            <p>Width: 240 mm</p>
+            <p>Price: 150000/-</p>
+            <button id="add_to_cart" >Add To Cart</button>
+        </div>
+
+        </div>
+
+        <div id="civil_div">
+            <div id="buy_products_div">
+                <img style="margin :15px;" src="/assets/images/civil1.jpeg"><br>
+                <p>Name: Big Cranes</p>
+                <p>Main motor: 1.5 kw</p>
+                <p>Height of centers: 165 mm</p>
+                <p>Width: 240 mm</p>
+                <p>Price: 150000/-</p>
+                <button id="add_to_cart">Add To Cart</button>
+            </div>
+    
+            <div id="buy_products_div">
+                <img style="margin :15px;" src="/assets/images/civil2.jpg"><br>
+                <p>Name: BullDozer</p>
+                <p>Main motor: 1.5 kw</p>
+                <p>Height of centers: 165 mm</p>
+                <p>Width: 240 mm</p>
+                <p>Price: 800000/-</p>
+                <button id="add_to_cart">Add To Cart</button>
+            </div>
+    
+            <div id="buy_products_div">
+                <img style="margin :15px;" src="/assets/images/civil3.jpg"><br>
+                <p>Name: Excavators</p>
+                <p>Main motor: 1.5 kw</p>
+                <p>Height of centers: 165 mm</p>
+                <p>Width: 240 mm</p>
+                <p>Price: 550000/-</p>
+                <button id="add_to_cart">Add To Cart</button>
+            </div>
+    
+            <div id="buy_products_div">
+                <img style="margin :15px;" src="/assets/images/civil4.jpg"><br>
+                <p>Name: Construction Safety Equipments</p>
+                <p>Main motor: 1.5 kw</p>
+                <p>Height of centers: 165 mm</p>
+                <p>Width: 240 mm</p>
+                <p>Price: 50000/-</p>
+                <button id="add_to_cart">Add To Cart</button>
+            </div>
+    
+            </div>
+
+            <div id="food_div">
+                <div id="buy_products_div">
+                    <img style="margin :15px;" src="/assets/images/food2.jpg"><br>
+                    <p>Name: Coffee Machine</p>
+                    <p>Main motor: 1.5 kw</p>
+                    <p>Height of centers: 165 mm</p>
+                    <p>Width: 240 mm</p>
+                    <p>Price: 400000/-</p>
+                    <button id="add_to_cart">Add To Cart</button>
+                </div>
+        
+                <div id="buy_products_div">
+                    <img style="margin :15px;" src="/assets/images/food1.jpg"><br>
+                    <p>Name: Distillery</p>
+                    <p>Main motor: 1.5 kw</p>
+                    <p>Height of centers: 165 mm</p>
+                    <p>Width: 240 mm</p>
+                    <p>Price: 700000/-</p>
+                    <button id="add_to_cart">Add To Cart</button>
+                </div>
+        
+                <div id="buy_products_div">
+                    <img style="margin :15px;" src="/assets/images/food4.jpg"><br>
+                    <p>Name: Boilers</p>
+                    <p>Main motor: 1.5 kw</p>
+                    <p>Height of centers: 165 mm</p>
+                    <p>Width: 240 mm</p>
+                    <p>Price: 900000/-</p>
+                    <button id="add_to_cart">Add To Cart</button>
+                </div>
+        
+                <div id="buy_products_div">
+                    <img style="margin :15px;" src="/assets/images/food3.jpg"><br>
+                    <p>Name: Diffusers</p>
+                    <p>Main motor: 1.5 kw</p>
+                    <p>Height of centers: 165 mm</p>
+                    <p>Width: 240 mm</p>
+                    <p>Price: 100000/-</p>
+                    <button id="add_to_cart">Add To Cart</button>
+                </div>
+        
+                </div>
+    </section>
+    <script src="/index.js"></script>
+    
+</body>
+
+</html>
